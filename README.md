@@ -1,2 +1,24 @@
-# Weather-APP
-A beginner-friendly weather app built using HTML, CSS, and JavaScript for the event Begin2Build. It fetches real-time weather data from WeatherAPI.com and features a clean, responsive UI with smooth UX.
+# 🌦️ Weather App
+
+A responsive, beginner-friendly weather application built with **HTML, CSS, and JavaScript**, powered by the **WeatherAPI.com** for real-time data.
+
+---
+
+## 🛠️ Features
+- 🔍 Search weather by city name
+- 🌤️ Real-time temperature, weather condition, humidity, wind speed
+- 🧊 Modern glassmorphism UI
+- 📱 Mobile responsive design
+- ✅ Error handling for invalid inputs
+- 💡 Placeholder values before search
+- ⚡ Fast and lightweight
+
+---
+
+## 📦 Tech Stack
+- **HTML5** – Markup and structure
+- **CSS3** – Custom design with responsive layout
+- **JavaScript (Vanilla)** – Logic and API integration
+- **WeatherAPI.com** – Free weather data API
+
+---
