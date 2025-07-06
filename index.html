@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Search for a city..." />
+      <button onclick="getWeather()">🔍</button>
+    </div>
+
+    <div class="weather-card glass" id="weatherCard">
+      <div class="location-placeholder shimmer"></div>
+      <img id="icon" src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="weather icon" />
+      <div class="description" id="description">Clear</div>
+      <div class="temp" id="temp">--°C</div>
+      <div class="extras">
+        <span id="humidity">Humidity: --%</span>
+        <span id="wind">Wind: -- km/h</span>
+      </div>
+    </div>
+
+    <p id="errorMsg" class="error"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
